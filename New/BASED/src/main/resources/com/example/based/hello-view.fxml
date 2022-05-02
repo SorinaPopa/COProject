@@ -5,10 +5,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <Label layoutX="137.0" layoutY="222.0" text="Welcome to BASED GAMBLING!">
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="137.0" layoutY="222.0" text="Welcome to BASED GAMBLING!">
             <font>
                 <Font name="Cambria Bold" size="24.0" />
             </font>
