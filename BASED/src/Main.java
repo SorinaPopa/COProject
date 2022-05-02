@@ -1,5 +1,10 @@
+import bench.CPUDigitsOfPi;
+
 public class Main {
     public static void main(String[] args){
-        System.out.println("mAIN");
+        CPUDigitsOfPi bench =new CPUDigitsOfPi();
+        bench.initialize(1000);
+        bench.run();
+        bench.pi.getPi();
     }
 }
