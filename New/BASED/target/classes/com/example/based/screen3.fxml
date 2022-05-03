@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.based.Screen3"
-            prefHeight="400.0" prefWidth="600.0">
 
-</AnchorPane>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="51.0" layoutY="53.0" prefHeight="64.0" prefWidth="419.0" text="The digit on the selected position is:">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="98.0" layoutY="117.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #ff1d18;" text="e">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="193.0" layoutY="117.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #000000;" text="π" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="300.0" layoutY="117.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #ff1d18;" text="√2">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="300.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
+      <TextArea layoutX="98.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
+      <TextArea layoutX="193.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
+   </children>
+</Pane>
