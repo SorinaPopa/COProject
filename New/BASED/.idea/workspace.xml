@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b725eee-d483-4a94-88dc-6a96cb3b16c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/exitScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/exitScreen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen3.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen4.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="4b725eee-d483-4a94-88dc-6a96cb3b16c1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,11 +29,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
-  }
-}</component>
   <component name="RunManager" selected="Application.MainApp">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.based.HelloApplication" />
@@ -97,6 +84,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Home screen size updated (increased)" />
