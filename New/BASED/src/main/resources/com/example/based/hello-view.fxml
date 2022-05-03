@@ -17,12 +17,12 @@
                 <Font name="Cambria" size="20.0" />
             </font>
         </Label>
-        <Button layoutX="143.0" layoutY="364.0" mnemonicParsing="false" prefWidth="75.0" style="-fx-background-color: #FF1D18;" text="NO">
+        <Button layoutX="143.0" layoutY="364.0" mnemonicParsing="false" onAction="#handleNo" prefWidth="75.0" style="-fx-background-color: #FF1D18;" text="NO">
             <font>
                 <Font size="16.0" />
             </font>
         </Button>
-        <Button layoutX="383.0" layoutY="364.0" mnemonicParsing="false" prefWidth="75.0" style="-fx-background-color: #26D701;" text="YES">
+        <Button layoutX="383.0" layoutY="364.0" mnemonicParsing="false" onAction="#handleYes" prefWidth="75.0" style="-fx-background-color: #26D701;" text="YES">
             <font>
                 <Font size="16.0" />
             </font>
