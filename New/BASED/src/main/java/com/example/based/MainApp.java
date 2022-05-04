@@ -1,8 +1,6 @@
 package com.example.based;
 
-import com.example.based.controllers.InitialOverviewController;
-import com.example.based.controllers.RootLayoutController;
-import com.example.based.controllers.Screen2Controller;
+import com.example.based.controllers.*;
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -78,6 +76,53 @@ public class MainApp extends Application {
             Screen2Controller controller= loader.getController();
             controller.setMainApp(this);
 
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public void showScreen3(){
+        try {
+            FXMLLoader loader= new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("screen3.fxml"));
+            Pane pane= loader.load();
+
+            rootLayout.setCenter(pane);
+
+            Screen3Controller controller= loader.getController();
+            controller.setMainApp(this);
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public void showScreen4(){
+        try {
+            FXMLLoader loader= new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("screen4.fxml"));
+            Pane pane= loader.load();
+
+            rootLayout.setCenter(pane);
+
+            Screen4Controller controller= loader.getController();
+            controller.setMainApp(this);
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public void showExitScreen(){
+        try {
+            FXMLLoader loader= new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("exitScreen.fxml"));
+            Pane pane= loader.load();
+
+            rootLayout.setCenter(pane);
+
+            ExitScreenController controller= loader.getController();
+
+            controller.setMainApp(this);
 
         }catch (IOException e){
             e.printStackTrace();

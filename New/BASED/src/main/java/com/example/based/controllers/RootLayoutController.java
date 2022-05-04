@@ -2,11 +2,7 @@ package com.example.based.controllers;
 
 import com.example.based.MainApp;
 
-public class RootLayoutController {
+public class RootLayoutController extends MainAppControllers{
 
-    private MainApp mainApp;
 
-    public void setMainApp(MainApp mainApp) {
-        this.mainApp = mainApp;
-    }
 }
