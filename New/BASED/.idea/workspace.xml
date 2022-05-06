@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b725eee-d483-4a94-88dc-6a96cb3b16c1" name="Changes" comment="Home screen size updated (increased)">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithms/Sqrt2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/InitialOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/InitialOverviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/RootLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/RootLayoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/Screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/Screen2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/exitScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/exitScreen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen3.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen4.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/controllers/InitialOverviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/controllers/InitialOverviewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/controllers/RootLayoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/controllers/RootLayoutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/controllers/Screen2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/controllers/Screen2Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/exitScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/exitScreen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen3.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen4.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Facultate/ProjectCO/COProject/New/BASED&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Algorithms" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\COProjectFolder\COProject\New\BASED\src\main\java\Algorithms" />
+      <recent name="G:\COProjectFolder\COProject\New\BASED\src\main\java\com\example\based" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.MainApp">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.based.HelloApplication" />
@@ -120,6 +114,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Home screen size updated (increased)" />
