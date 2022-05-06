@@ -4,19 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f17bb8d-446e-42af-8c78-bcddddc243bd" name="Changes" comment="Home screen size updated (increased)">
+    <list default="true" id="4b725eee-d483-4a94-88dc-6a96cb3b16c1" name="Changes" comment="Home screen size updated (increased)">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/hello-view.fxml" afterDir="false" />
-<<<<<<< HEAD
->>>>>>> Interfaces
-=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/InitialOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/InitialOverviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/RootLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/RootLayoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/Screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/Screen2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/exitScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/exitScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/controllers/InitialOverviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/controllers/InitialOverviewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/controllers/RootLayoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/controllers/RootLayoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/controllers/Screen2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/controllers/Screen2Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/exitScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/exitScreen.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen3.fxml" afterDir="false" />
->>>>>>> Interfaces
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen4.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +33,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28bNUUxlOJ6MQb1hSeDeae9OSXA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -41,12 +51,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../home.fxml" />
-  </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Facultate/ProjectCO/COProject/New/BASED&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.MainApp">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.based.HelloApplication" />
       <module name="BASED" />
@@ -60,8 +72,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.based.MainApp" />
+      <module name="BASED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.based.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
@@ -69,13 +95,20 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f17bb8d-446e-42af-8c78-bcddddc243bd" name="Changes" comment="" />
+      <changelist id="4b725eee-d483-4a94-88dc-6a96cb3b16c1" name="Changes" comment="" />
       <created>1651481342684</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651481342684</updated>
+      <workItem from="1651595419332" duration="20000" />
+      <workItem from="1651598031127" duration="1051000" />
+      <workItem from="1651609021978" duration="1167000" />
+      <workItem from="1651667186475" duration="302000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -87,7 +120,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Home screen size updated (increased)" />
