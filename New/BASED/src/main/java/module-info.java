@@ -7,5 +7,6 @@ module com.example.based {
     opens com.example.based.controllers to javafx.fxml;
     exports com.example.based;
     exports com.example.based.controllers;
+    exports Algorithms;
 
 }

@@ -21,7 +21,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="220.0" layoutY="136.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="46.0" style="-fx-background-color: #FF1D18;" text="e" textFill="WHITE">
+      <Button layoutX="220.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleE" prefHeight="39.0" prefWidth="46.0" style="-fx-background-color: #FF1D18;" text="e" textFill="WHITE">
          <font>
             <Font name="Cambria" size="18.0" />
          </font>
@@ -29,7 +29,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="279.0" layoutY="136.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="46.0" style="-fx-background-color: black;" text="π" textFill="WHITE">
+      <Button layoutX="279.0" layoutY="136.0" mnemonicParsing="false" onAction="#handlePi" prefHeight="39.0" prefWidth="46.0" style="-fx-background-color: black;" text="π" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
@@ -37,7 +37,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="338.0" layoutY="136.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="46.0" style="-fx-background-color: #FF1D18;" text="√2" textFill="WHITE">
+      <Button layoutX="338.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleSqrt" prefHeight="39.0" prefWidth="46.0" style="-fx-background-color: #FF1D18;" text="√2" textFill="WHITE">
          <font>
             <Font name="Cambria" size="18.0" />
          </font>
@@ -50,7 +50,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Button layoutX="130.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="2" textFill="WHITE">
+      <Button layoutX="130.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleTwo" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="2" textFill="WHITE">
          <font>
             <Font name="Cambria" size="18.0" />
          </font>
@@ -58,7 +58,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="246.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="4" textFill="WHITE">
+      <Button layoutX="246.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleFour" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="4" textFill="WHITE">
          <font>
             <Font name="Cambria" size="18.0" />
          </font>
@@ -66,7 +66,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="21.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="0" textFill="WHITE">
+      <Button layoutX="21.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleZero" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="0" textFill="WHITE">
          <font>
             <Font name="Cambria" size="18.0" />
          </font>
@@ -74,7 +74,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="483.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="8" textFill="WHITE">
+      <Button layoutX="483.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleEight" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="8" textFill="WHITE">
          <font>
             <Font name="Cambria" size="18.0" />
          </font>
@@ -82,7 +82,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="364.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="6" textFill="WHITE">
+      <Button layoutX="364.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleSix" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="6" textFill="WHITE">
          <font>
             <Font name="Cambria" size="18.0" />
          </font>
@@ -90,7 +90,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="541.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="9" textFill="WHITE">
+      <Button layoutX="541.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleNine" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="9" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
@@ -98,7 +98,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="424.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="7" textFill="WHITE">
+      <Button layoutX="424.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleSeven" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="7" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
@@ -106,7 +106,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="305.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="5" textFill="WHITE">
+      <Button layoutX="305.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleFive" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="5" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
@@ -114,7 +114,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="189.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="3" textFill="WHITE">
+      <Button layoutX="189.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleThree" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="3" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
@@ -122,7 +122,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="76.0" layoutY="262.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="1" textFill="WHITE">
+      <Button layoutX="76.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleOne" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="1" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
