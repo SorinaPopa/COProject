@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="58.0" layoutY="89.0" prefHeight="52.0" prefWidth="227.0" text="Time compilation for:">
          <font>
@@ -47,5 +46,15 @@
             <Font size="16.0" />
          </font>
       </Button>
+      <Label layoutX="396.0" layoutY="100.0" text="Score:">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="401.0" layoutY="146.0" style="-fx-background-color: white;" text="Label">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
    </children>
 </Pane>
