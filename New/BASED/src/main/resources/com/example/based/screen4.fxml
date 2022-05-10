@@ -12,14 +12,14 @@
             <Font name="Cambria" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="113.0" layoutY="435.0" prefHeight="59.0" prefWidth="384.0" text="Come back when you feel lucky again!" textFill="WHITE">
+      <Label layoutX="128.0" layoutY="434.0" prefHeight="59.0" prefWidth="357.0" text="Come back when you feel lucky again!" textFill="WHITE" wrapText="true">
          <font>
-            <Font size="22.0" />
+            <Font name="Cambria" size="22.0" />
          </font>
       </Label>
-      <Button layoutX="260.0" layoutY="510.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="39.0" prefWidth="91.0" style="-fx-background-color: #FF1D18;" text="CLOSE">
+      <Button layoutX="260.0" layoutY="510.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="39.0" prefWidth="91.0" style="-fx-background-color: #FF1D18;" text="CLOSE" textFill="WHITE">
          <font>
-            <Font size="16.0" />
+            <Font name="Cambria" size="16.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
