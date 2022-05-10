@@ -98,7 +98,7 @@ public class MainApp extends Application {
         }
     }
 
-    public void showScreen4(){
+    public void showScreen4(long eTime, long piTime, long sqrt2Time){
         try {
             FXMLLoader loader= new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("screen4.fxml"));
@@ -108,6 +108,7 @@ public class MainApp extends Application {
 
             Screen4Controller controller= loader.getController();
             controller.setMainApp(this);
+            controller.setValues(eTime, piTime, sqrt2Time);
         }catch (IOException e){
             e.printStackTrace();
         }
