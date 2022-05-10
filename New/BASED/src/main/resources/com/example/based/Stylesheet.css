@@ -1,0 +1,34 @@
+.hello-view{
+-fx-background-image: url('asi.png');
+-fx-background-repeat: no-repeat;
+-fx-background-size: 600 600;
+-fx-background-position: center center;
+}
+
+.screen2{
+-fx-background-image: url('fundal1.png');
+-fx-background-repeat: no-repeat;
+-fx-background-size: 600 600;
+-fx-background-position: center center;
+}
+
+.screen3{
+-fx-background-image: url('bani.png');
+-fx-background-repeat: no-repeat;
+-fx-background-size: 600 600;
+-fx-background-position: center center;
+}
+
+.screen4{
+-fx-background-image: url('as.png');
+-fx-background-repeat: no-repeat;
+-fx-background-size: 600 600;
+-fx-background-position: center center;
+}
+
+.exitScreen{
+-fx-background-image: url('ruleta.png');
+-fx-background-repeat: no-repeat;
+-fx-background-size: 600 600;
+-fx-background-position: center center;
+}

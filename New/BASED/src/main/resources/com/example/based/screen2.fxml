@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen2Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="screen2" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen2Controller">
    <children>
-      <Label alignment="CENTER" layoutX="59.0" layoutY="73.0" text="What irrational number do you want to bet on?" textAlignment="CENTER">
+      <Label alignment="CENTER" layoutX="59.0" layoutY="73.0" text="What irrational number do you want to bet on?" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Cambria" size="24.0" />
          </font>
@@ -45,9 +43,9 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label layoutX="150.0" layoutY="202.0" text="What digit do you want to bet on?">
+      <Label layoutX="150.0" layoutY="202.0" text="What digit do you want to bet on?" textFill="WHITE">
          <font>
-            <Font size="20.0" />
+            <Font name="Cambria" size="20.0" />
          </font>
       </Label>
       <Button layoutX="130.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleTwo" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="2" textFill="WHITE">
@@ -130,20 +128,20 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label layoutX="159.0" layoutY="337.0" text="On what position the digit will be?">
+      <Label layoutX="159.0" layoutY="337.0" text="On what position the digit will be?" textFill="WHITE">
          <font>
             <Font name="Cambria" size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="277.0" layoutY="374.0" prefHeight="40.0" prefWidth="46.0" />
-      <Label layoutX="197.0" layoutY="429.0" text="(Insert a number from 1 to 100)">
+      <TextField layoutX="277.0" layoutY="374.0" prefHeight="34.0" prefWidth="40.0" />
+      <Label layoutX="56.0" layoutY="381.0" text="(Insert a number from 1 to 100)" textFill="WHITE">
          <font>
             <Font name="Cambria" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="299.0" layoutY="449.0" prefHeight="24.0" prefWidth="0.0" textFill="RED">
+      <Label fx:id="outofboundsMessage" layoutX="45.0" layoutY="416.0" prefHeight="24.0" prefWidth="228.0" style="-fx-background-color: red;" text="The number is out of bounds!" textFill="WHITE" visible="false" wrapText="true">
          <font>
-            <Font name="Cambria" size="20.0" />
+            <Font name="Cambria" size="18.0" />
          </font>
       </Label>
    </children>
