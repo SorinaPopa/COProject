@@ -2,15 +2,26 @@ package com.example.based.controllers;
 
 import com.example.based.MainApp;
 import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+import com.example.based.Algorithms.DigitsOfPi;
+import com.example.based.Algorithms.EMain;
+import com.example.based.Algorithms.Sqrt2;
 
 public class Screen2Controller extends MainAppControllers{
 
     private int digit;
     private int irr_number;
 
+    private DigitsOfPi piNumber;
+    private EMain eNumber;
+    private Sqrt2 sqrt2Number;
+
+    @FXML
+    private TextField digitField;
+
     @FXML
     private void handleBet(){
-        mainApp.showScreen3();
+        mainApp.showScreen3(irr_number, digit, Integer.parseInt(digitField.getText()));
     }
     @FXML
     private void handleZero(){

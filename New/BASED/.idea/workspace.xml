@@ -6,14 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="4b725eee-d483-4a94-88dc-6a96cb3b16c1" name="Changes" comment="Home screen size updated (increased)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithms/DigitsOfPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/Algorithms/DigitsOfPi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithms/EMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/Algorithms/EMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithms/Sqrt2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/Algorithms/Sqrt2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/Screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/Screen2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/Screen3Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/based/controllers/Screen3Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithms/DigitsOfPi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithms/EMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithms/Sqrt2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/controllers/Screen2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/controllers/Screen2Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
@@ -48,13 +52,20 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Facultate/ProjectCO/COProject/New/BASED&quot;
+    &quot;last_opened_file_path&quot;: &quot;E:/Facultate/ProjectCO/COProject/New/BASED&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\COProjectFolder\COProject\New\BASED\src\main\java\Algorithms" />
       <recent name="G:\COProjectFolder\COProject\New\BASED\src\main\java\com\example\based" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.based" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainApp">
@@ -104,7 +115,8 @@
       <workItem from="1651609021978" duration="1167000" />
       <workItem from="1651667186475" duration="302000" />
       <workItem from="1652187829586" duration="3471000" />
-      <workItem from="1652191487358" duration="53000" />
+      <workItem from="1652191487358" duration="2697000" />
+      <workItem from="1652194199969" duration="2788000" />
     </task>
     <servers />
   </component>

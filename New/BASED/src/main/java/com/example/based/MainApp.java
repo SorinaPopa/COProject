@@ -81,7 +81,7 @@ public class MainApp extends Application {
         }
     }
 
-    public void showScreen3(){
+    public void showScreen3(int number, int digit, int position){
         try {
             FXMLLoader loader= new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("screen3.fxml"));
@@ -91,6 +91,7 @@ public class MainApp extends Application {
 
             Screen3Controller controller= loader.getController();
             controller.setMainApp(this);
+            controller.setValues(number, digit,position);
 
         }catch (IOException e){
             e.printStackTrace();
