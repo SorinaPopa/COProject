@@ -6,24 +6,24 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.ExitScreenController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="exitScreen" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.ExitScreenController">
    <children>
-      <Label layoutX="226.0" layoutY="163.0" prefHeight="63.0" prefWidth="148.0" text="We are sorry! :(">
+      <Label layoutX="226.0" layoutY="158.0" prefHeight="63.0" prefWidth="148.0" text="We are sorry! :(" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="189.0" prefHeight="63.0" prefWidth="289.0" text="Come back when you feel lucky!" textFill="WHITE">
          <font>
             <Font name="Cambria" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="156.0" layoutY="226.0" prefHeight="63.0" prefWidth="289.0" text="Come back when you feel lucky!">
+      <Label layoutX="212.0" layoutY="229.0" prefHeight="63.0" prefWidth="177.0" text="We will be waiting!" textFill="WHITE">
          <font>
             <Font name="Cambria" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="212.0" layoutY="289.0" prefHeight="63.0" prefWidth="177.0" text="We will be waiting!">
-         <font>
-            <Font name="Cambria" size="20.0" />
-         </font>
-      </Label>
-      <Button layoutX="255.0" layoutY="395.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="39.0" prefWidth="91.0" style="-fx-background-color: #FF1D18;" text="CLOSE">
+      <Button layoutX="255.0" layoutY="385.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="39.0" prefWidth="91.0" style="-fx-background-color: #FF1D18;" text="CLOSE">
          <font>
             <Font size="16.0" />
          </font>
