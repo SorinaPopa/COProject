@@ -33,31 +33,68 @@
 -fx-background-position: center center;
 }
 
-.button {
-    -fx-padding: 8 15 15 15;
-    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
-    -fx-background-radius: 8;
-    -fx-background-color:
-        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
-        #9d4024,
-        #d86e3a,
-        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
-    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
-    -fx-font-weight: bold;
-    -fx-font-size: 1.1em;
+* {
+	-fx-primary-color: #007acc;
+	-fx-secondary-color: #4B6EAF;
+	-fx-accent-color: #B6FF00;
+	-fx-grey-color: #b9b9b9;
+	-fx-light-grey-color: #d1d1d1;
+	-fx-lightest-grey-color: #F9F9FB;
+
+	-fx-focus-color: -fx-secondary-color;
 }
-.button:hover {
-    -fx-background-color:
-        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
-        #9d4024,
-        #d86e3a,
-        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+
+.table-view {
+	-fx-border-color: transparent;
+	-fx-background-color: transparent; /* OR  -fx-background-insets: 0.0; */
 }
-.button:pressed {
-    -fx-padding: 10 15 13 15;
-    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+.table-view .column-header-background,
+.table-view .column-header-background .filler,
+.table-view .corner {
+	-fx-background-color: transparent;
 }
-.button Text {
-    -fx-fill: white;
-    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+.table-view .column-header {
+	-fx-background-color: -fx-light-grey-color;
+	-fx-border-color: -fx-grey-color;
+}
+.table-view .column-header .label{
+	-fx-font-weight: bold;
+	-fx-alignment: center-left;
+}
+/* This is just magic */
+.table-row-cell:filled {
+	-fx-background-color: transparent;
+	-fx-border-color: transparent -fx-lightest-grey-color -fx-lightest-grey-color -fx-lightest-grey-color, transparent;
+	-fx-border-insets: 0, 1;
+}
+.table-row-cell:empty {
+	-fx-background-color: transparent;
+}
+.table-row-cell:filled:hover {
+	-fx-background-color: -fx-light-grey-color;
+}
+.table-row-cell:filled:selected:hover {
+	-fx-background-color: -fx-light-grey-color;
+}
+.table-row-cell:filled:selected {
+  	-fx-background-color: #eaeaea;
+ 	-fx-background-insets: 0.0;
+	-fx-background-radius: 0.0;
+}
+.table-row-cell:filled:selected .table-cell {
+	-fx-text-fill: black;
+}
+.table-view .cell:filled{
+	-fx-cell-size: 30;
+	-fx-alignment: center-left;
+}
+.check-box-table-cell > .check-box:selected .box .mark {
+	-fx-background-color: white;
+}
+.check-box-table-cell > .check-box:selected .box{
+	-fx-background-color: -fx-accent-color;
+}
+.table-view .placeholder .label {
+	-fx-text-fill: red;
+	-fx-padding:20px;
 }

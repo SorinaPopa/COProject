@@ -17,17 +17,17 @@
                 <Font name="Cambria" size="20.0" />
             </font>
         </Label>
-        <Button layoutX="263.0" layoutY="398.0" mnemonicParsing="false" onAction="#handleNo" prefWidth="75.0" stylesheets="@Stylesheet.css" text="NO">
+        <Button layoutX="263.0" layoutY="398.0" mnemonicParsing="false" onAction="#handleNo" prefWidth="75.0" style="-fx-background-color: #FF1D18;" stylesheets="@Stylesheet.css" text="NO" textFill="WHITE">
             <font>
-                <Font size="16.0" />
+                <Font name="Cambria" size="16.0" />
             </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
         </Button>
-        <Button layoutX="262.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleYes" prefWidth="75.0" stylesheets="@Stylesheet.css" text="YES">
+        <Button layoutX="262.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleYes" prefWidth="75.0" style="-fx-background-color: #26D701;" stylesheets="@Stylesheet.css" text="YES" textFill="WHITE">
             <font>
-                <Font size="16.0" />
+                <Font name="Cambria" size="16.0" />
             </font>
          <cursor>
             <Cursor fx:constant="HAND" />

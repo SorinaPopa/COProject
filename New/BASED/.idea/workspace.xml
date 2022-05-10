@@ -6,11 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4b725eee-d483-4a94-88dc-6a96cb3b16c1" name="Changes" comment="Home screen size updated (increased)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/exitScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/exitScreen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen3.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/based/screen4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/based/screen4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/Stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/exitScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/exitScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/based/screen4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/based/screen4.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
