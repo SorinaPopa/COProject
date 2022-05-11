@@ -5,29 +5,29 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.InitialOverviewController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="hello-view" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.InitialOverviewController">
     <children>
-        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="200.0" text="Welcome to BASED GAMBLING!" textAlignment="CENTER">
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="186.0" text="Welcome to BASED GAMBLING!" textAlignment="CENTER" textFill="WHITE">
             <font>
                 <Font name="Cambria Bold" size="24.0" />
             </font>
         </Label>
-        <Label layoutX="180.0" layoutY="256.0" text="Are you feeling lucky today?">
+        <Label layoutX="180.0" layoutY="236.0" text="Are you feeling lucky today?" textFill="WHITE">
             <font>
                 <Font name="Cambria" size="20.0" />
             </font>
         </Label>
-        <Button layoutX="143.0" layoutY="364.0" mnemonicParsing="false" onAction="#handleNo" prefWidth="75.0" style="-fx-background-color: #FF1D18;" text="NO">
+        <Button layoutX="263.0" layoutY="398.0" mnemonicParsing="false" onAction="#handleNo" prefWidth="75.0" style="-fx-background-color: #FF1D18;" stylesheets="@Stylesheet.css" text="NO" textFill="WHITE">
             <font>
-                <Font size="16.0" />
+                <Font name="Cambria" size="16.0" />
             </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
         </Button>
-        <Button layoutX="383.0" layoutY="364.0" mnemonicParsing="false" onAction="#handleYes" prefWidth="75.0" style="-fx-background-color: #26D701;" text="YES">
+        <Button layoutX="262.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleYes" prefWidth="75.0" style="-fx-background-color: #26D701;" stylesheets="@Stylesheet.css" text="YES" textFill="WHITE">
             <font>
-                <Font size="16.0" />
+                <Font name="Cambria" size="16.0" />
             </font>
          <cursor>
             <Cursor fx:constant="HAND" />

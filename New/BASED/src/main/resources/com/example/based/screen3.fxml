@@ -5,14 +5,14 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen3Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="screen3" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen3Controller">
    <children>
-      <Label layoutX="136.0" layoutY="53.0" prefHeight="64.0" prefWidth="316.0" text="The digit on the selected position is:">
+      <Label layoutX="136.0" layoutY="53.0" prefHeight="64.0" prefWidth="316.0" text="The digit on the selected position is:" textFill="WHITE">
          <font>
             <Font name="Cambria" size="20.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="179.0" layoutY="117.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #ff1d18;" text="e">
+      <Label alignment="CENTER" layoutX="179.0" layoutY="117.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #ff1d18;" text="e" textFill="WHITE">
          <font>
             <Font name="Cambria" size="18.0" />
          </font>
@@ -22,7 +22,7 @@
             <Font name="Cambria" size="18.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="381.0" layoutY="117.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #ff1d18;" text="√2">
+      <Label alignment="CENTER" layoutX="381.0" layoutY="117.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #ff1d18;" text="√2" textFill="WHITE">
          <font>
             <Font name="Cambria" size="18.0" />
          </font>
@@ -30,30 +30,30 @@
             <Cursor fx:constant="NONE" />
          </cursor>
       </Label>
-      <TextArea fx:id="sqrt2Area" layoutX="381.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
-      <TextArea fx:id="eArea" layoutX="179.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
-      <TextArea fx:id="piArea" layoutX="274.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
-      <Label fx:id="resultLabel" layoutX="246.0" layoutY="240.0" prefHeight="75.0" prefWidth="119.0" text="YOU WON!">
+      <TextArea editable="false" layoutX="381.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
+      <TextArea editable="false" layoutX="179.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
+      <TextArea editable="false" layoutX="274.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
+      <Label layoutX="246.0" layoutY="240.0" prefHeight="75.0" prefWidth="119.0" text="YOU WON!" textFill="WHITE">
          <font>
             <Font name="Cambria" size="25.0" />
          </font>
       </Label>
-      <Label layoutX="187.0" layoutY="315.0" prefHeight="64.0" prefWidth="236.0" text="Do you want to try again?">
+      <Label layoutX="187.0" layoutY="315.0" prefHeight="64.0" prefWidth="236.0" text="Do you want to try again?" textFill="WHITE">
          <font>
             <Font name="Cambria" size="20.0" />
          </font>
       </Label>
-      <Button layoutX="141.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleNo" prefWidth="75.0" style="-fx-background-color: #FF1D18;" text="NO">
+      <Button layoutX="141.0" layoutY="392.0" mnemonicParsing="false" onAction="#handleNo" prefWidth="75.0" style="-fx-background-color: #FF1D18;" text="NO" textFill="WHITE">
          <font>
-            <Font size="16.0" />
+            <Font name="Cambria" size="16.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="385.0" layoutY="411.0" mnemonicParsing="false" onAction="#handleYes" prefWidth="75.0" style="-fx-background-color: #26D701;" text="YES">
+      <Button layoutX="386.0" layoutY="392.0" mnemonicParsing="false" onAction="#handleYes" prefWidth="75.0" style="-fx-background-color: #26D701;" text="YES" textFill="WHITE">
          <font>
-            <Font size="16.0" />
+            <Font name="Cambria" size="16.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />

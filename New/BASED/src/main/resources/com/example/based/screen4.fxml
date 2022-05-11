@@ -5,48 +5,35 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen4Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="screen4" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen4Controller">
    <children>
-      <Label layoutX="58.0" layoutY="89.0" prefHeight="52.0" prefWidth="227.0" text="Time compilation for:">
+      <Label layoutX="158.0" layoutY="393.0" prefHeight="59.0" prefWidth="295.0" text="Thank you for your participation!" textFill="WHITE">
          <font>
             <Font name="Cambria" size="20.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="66.0" layoutY="146.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #ff1d18;" text="e">
+      <Label layoutX="128.0" layoutY="434.0" prefHeight="59.0" prefWidth="357.0" text="Come back when you feel lucky again!" textFill="WHITE" wrapText="true">
          <font>
-            <Font name="Cambria" size="18.0" />
+            <Font name="Cambria" size="22.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="66.0" layoutY="204.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #000000;" text="π" textAlignment="CENTER" textFill="WHITE">
+      <Button layoutX="260.0" layoutY="510.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="39.0" prefWidth="91.0" style="-fx-background-color: #FF1D18;" text="CLOSE" textFill="WHITE">
          <font>
-            <Font name="Cambria" size="18.0" />
-         </font>
-      </Label>
-      <Label alignment="CENTER" layoutX="66.0" layoutY="258.0" prefHeight="38.0" prefWidth="41.0" style="-fx-background-color: #ff1d18;" text="√2">
-         <font>
-            <Font name="Cambria" size="18.0" />
-         </font>
-      </Label>
-      <TextArea fx:id="sqrt2Area" layoutX="123.0" layoutY="258.0" prefHeight="38.0" prefWidth="160.0" />
-      <TextArea fx:id="eArea" layoutX="123.0" layoutY="146.0" prefHeight="39.0" prefWidth="160.0" />
-      <TextArea fx:id="piArea" layoutX="123.0" layoutY="204.0" prefHeight="39.0" prefWidth="160.0" />
-      <Label layoutX="203.0" layoutY="376.0" prefHeight="59.0" prefWidth="295.0" text="Thank you for your participation!">
-         <font>
-            <Font name="Cambria" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="158.0" layoutY="435.0" prefHeight="59.0" prefWidth="384.0" text="Come back when you feel lucky again!">
-         <font>
-            <Font size="22.0" />
-         </font>
-      </Label>
-      <Button layoutX="305.0" layoutY="530.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="39.0" prefWidth="91.0" style="-fx-background-color: #FF1D18;" text="CLOSE">
-         <font>
-            <Font size="16.0" />
+            <Font name="Cambria" size="16.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
+      <TableView layoutX="134.0" layoutY="69.0" prefHeight="308.0" prefWidth="344.0" stylesheets="@Stylesheet.css">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Constant name" />
+          <TableColumn prefWidth="75.0" text="Compilation time" />
+            <TableColumn prefWidth="75.0" text="Score" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
    </children>
 </Pane>
