@@ -33,7 +33,9 @@ public class Screen2Controller extends MainAppControllers{
             errorMessage+= "No valid position!\n";
         else{
             try {
-                Integer.parseInt(positionField.getText());
+                if(Integer.parseInt(positionField.getText())==0){
+                    errorMessage+="Position 0 can't be used, use position 1 instead!\n";
+                }
             }catch (NumberFormatException e){
                 errorMessage+= "No valid position(must be an integer)!\n";
             }
@@ -42,6 +44,7 @@ public class Screen2Controller extends MainAppControllers{
         if(errorMessage.length()==0)
             return true;
         else{
+            errorMessage+= "Position values: 1-100";
             Alert alert= new Alert(Alert.AlertType.ERROR);
             alert.initOwner(stage);
             alert.setTitle("Invalid position Field");

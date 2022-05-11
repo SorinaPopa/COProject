@@ -33,7 +33,7 @@ public class Screen3Controller extends MainAppControllers{
     public void setValues(int number, int digit, int position){
 
         this.position= position;
-
+        position=position<10?10:position;
         PI_obj= new DigitsOfPi(position);
         E_obj= new EMain(position);
         SQRT2_obj= new Sqrt2(position);
@@ -53,10 +53,9 @@ public class Screen3Controller extends MainAppControllers{
         sqrt2Time=timer.stop();
 
         //char[] piArray= piNumber.toString().toCharArray();
-
-        int pi_digit= piNumber.toString().toCharArray()[position];
-        int e_digit= eNumber.toString().toCharArray()[position];
-        int sqrt2_digit= sqrt2Number.toString().toCharArray()[position];
+        int pi_digit= piNumber.toString().replace(".", "").toCharArray()[this.position-1];
+        int e_digit= eNumber.toString().replace(".", "").toCharArray()[this.position-1];
+        int sqrt2_digit= sqrt2Number.toString().replace(".", "").toCharArray()[this.position-1];
 
         eArea.setText(Character.toString(e_digit));
         piArea.setText(Character.toString(pi_digit));
