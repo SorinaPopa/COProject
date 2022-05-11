@@ -1,27 +1,62 @@
 package com.example.based.controllers;
 
-import com.example.based.MainApp;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import com.example.based.Algorithms.DigitsOfPi;
 import com.example.based.Algorithms.EMain;
 import com.example.based.Algorithms.Sqrt2;
+import javafx.stage.Stage;
 
 public class Screen2Controller extends MainAppControllers{
 
     private int digit;
     private int irr_number;
+    private Stage stage;
+
 
     private DigitsOfPi piNumber;
     private EMain eNumber;
     private Sqrt2 sqrt2Number;
 
     @FXML
-    private TextField digitField;
+    private TextField positionField;
 
+
+    public void setStage(Stage stage){
+        this.stage=stage;
+    }
+
+    private boolean isInputValid(){
+        String errorMessage="";
+        if(positionField.getText()==null || positionField.getText().length()==0)
+            errorMessage+= "No valid position!\n";
+        else{
+            try {
+                Integer.parseInt(positionField.getText());
+            }catch (NumberFormatException e){
+                errorMessage+= "No valid position(must be an integer)!\n";
+            }
+        }
+
+        if(errorMessage.length()==0)
+            return true;
+        else{
+            Alert alert= new Alert(Alert.AlertType.ERROR);
+            alert.initOwner(stage);
+            alert.setTitle("Invalid position Field");
+            alert.setHeaderText("Please correct invalid position field");
+            alert.setContentText(errorMessage);
+
+            alert.showAndWait();
+
+            return false;
+        }
+    }
     @FXML
     private void handleBet(){
-        mainApp.showScreen3(irr_number, digit, Integer.parseInt(digitField.getText()));
+        if(isInputValid())
+            mainApp.showScreen3(irr_number, digit, Integer.parseInt(positionField.getText()));
     }
     @FXML
     private void handleZero(){
@@ -75,5 +110,4 @@ public class Screen2Controller extends MainAppControllers{
     private void handleSqrt(){
         irr_number=3;
     }
-
 }

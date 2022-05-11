@@ -81,8 +81,13 @@
  	-fx-background-insets: 0.0;
 	-fx-background-radius: 0.0;
 }
+
+.table-row-cell:filled .table-cell{
+	-fx-text-fill: red;
+}
+
 .table-row-cell:filled:selected .table-cell {
-	-fx-text-fill: black;
+	-fx-text-fill: green;
 }
 .table-view .cell:filled{
 	-fx-cell-size: 30;

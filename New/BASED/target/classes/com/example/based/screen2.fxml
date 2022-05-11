@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="screen2" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen2Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="screen2" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen2Controller">
    <children>
       <Label alignment="CENTER" layoutX="59.0" layoutY="73.0" text="What irrational number do you want to bet on?" textAlignment="CENTER" textFill="WHITE">
          <font>
@@ -133,7 +133,7 @@
             <Font name="Cambria" size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="277.0" layoutY="374.0" prefHeight="34.0" prefWidth="40.0" />
+      <TextField fx:id="positionField" layoutX="277.0" layoutY="374.0" prefHeight="34.0" prefWidth="40.0" />
       <Label layoutX="56.0" layoutY="381.0" text="(Insert a number from 1 to 100)" textFill="WHITE">
          <font>
             <Font name="Cambria" size="15.0" />

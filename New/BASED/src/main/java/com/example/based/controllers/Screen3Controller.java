@@ -19,6 +19,8 @@ public class Screen3Controller extends MainAppControllers{
     private long eTime;
     private long sqrt2Time;
 
+    private int position;
+
     @FXML
     private TextArea piArea;
     @FXML
@@ -29,6 +31,9 @@ public class Screen3Controller extends MainAppControllers{
     private Label resultLabel;
 
     public void setValues(int number, int digit, int position){
+
+        this.position= position;
+
         PI_obj= new DigitsOfPi(position);
         E_obj= new EMain(position);
         SQRT2_obj= new Sqrt2(position);
@@ -70,7 +75,7 @@ public class Screen3Controller extends MainAppControllers{
 
     @FXML
     private void handleNo(){
-        mainApp.showScreen4(eTime, piTime, sqrt2Time);
+        mainApp.showScreen4(eTime, piTime, sqrt2Time, position);
     }
     @FXML
     private void handleYes(){

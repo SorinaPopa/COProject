@@ -1,7 +1,10 @@
 package com.example.based;
 
+import com.example.based.Algorithms.IrrationalNumber;
 import com.example.based.controllers.*;
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -17,9 +20,14 @@ public class MainApp extends Application {
     private Stage primaryStage;
 
     private BorderPane rootLayout;
+    private ObservableList<IrrationalNumber> numberData= FXCollections.observableArrayList();
 
     public MainApp(){
 
+    }
+
+    public ObservableList<IrrationalNumber> getNumberData(){
+        return numberData;
     }
 
     public void start(Stage primaryStage){
@@ -76,6 +84,7 @@ public class MainApp extends Application {
             rootLayout.setCenter(pane);
 
             Screen2Controller controller= loader.getController();
+            controller.setStage(primaryStage);
             controller.setMainApp(this);
 
         }catch (IOException e){
@@ -93,14 +102,14 @@ public class MainApp extends Application {
 
             Screen3Controller controller= loader.getController();
             controller.setMainApp(this);
-            controller.setValues(number, digit,position);
+            controller.setValues(number, digit, position);
 
         }catch (IOException e){
             e.printStackTrace();
         }
     }
 
-    public void showScreen4(long eTime, long piTime, long sqrt2Time){
+    public void showScreen4(long eTime, long piTime, long sqrt2Time, int position){
         try {
             FXMLLoader loader= new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("screen4.fxml"));
@@ -110,7 +119,13 @@ public class MainApp extends Application {
 
             Screen4Controller controller= loader.getController();
             controller.setMainApp(this);
-            controller.setValues(eTime, piTime, sqrt2Time);
+
+            numberData.add(new IrrationalNumber("E", eTime, ((double)position)/(double)eTime));
+            numberData.add(new IrrationalNumber("Pi", piTime, ((double)position)/(double)piTime));
+            numberData.add(new IrrationalNumber("Sqrt2", sqrt2Time, ((double)position)/(double)sqrt2Time));
+
+            //controller.setValues(eTime, piTime, sqrt2Time);
+
         }catch (IOException e){
             e.printStackTrace();
         }

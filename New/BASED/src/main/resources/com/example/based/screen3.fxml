@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="screen3" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen3Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="screen3" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen3Controller">
    <children>
       <Label layoutX="136.0" layoutY="53.0" prefHeight="64.0" prefWidth="316.0" text="The digit on the selected position is:" textFill="WHITE">
          <font>
@@ -30,10 +32,10 @@
             <Cursor fx:constant="NONE" />
          </cursor>
       </Label>
-      <TextArea editable="false" layoutX="381.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
-      <TextArea editable="false" layoutX="179.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
-      <TextArea editable="false" layoutX="274.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
-      <Label layoutX="246.0" layoutY="240.0" prefHeight="75.0" prefWidth="119.0" text="YOU WON!" textFill="WHITE">
+      <TextArea fx:id="sqrt2Area" editable="false" layoutX="381.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
+      <TextArea fx:id="eArea" editable="false" layoutX="179.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
+      <TextArea fx:id="piArea" editable="false" layoutX="274.0" layoutY="166.0" prefHeight="38.0" prefWidth="19.0" />
+      <Label fx:id="resultLabel" layoutX="246.0" layoutY="240.0" prefHeight="75.0" prefWidth="119.0" text="YOU WON!" textFill="WHITE">
          <font>
             <Font name="Cambria" size="25.0" />
          </font>
