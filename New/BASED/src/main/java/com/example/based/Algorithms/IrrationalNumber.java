@@ -2,11 +2,13 @@ package com.example.based.Algorithms;
 
 import javafx.beans.property.*;
 
+import java.text.DecimalFormat;
+
 public class IrrationalNumber {
 
     private StringProperty name;
-    private LongProperty time;
-    private DoubleProperty score;
+    private StringProperty time;
+    private StringProperty score;
 
     public IrrationalNumber(){
         this(null, 0, 0.0);
@@ -14,8 +16,8 @@ public class IrrationalNumber {
 
     public IrrationalNumber(String name, long time, double score){
         this.name= new SimpleStringProperty(name);
-        this.time= new SimpleLongProperty(time);
-        this.score= new SimpleDoubleProperty(score);
+        this.time= new SimpleStringProperty(Long.toString(time));
+        this.score= new SimpleStringProperty(Double.toString(score).substring(0, 10));
     }
 
     public String getName(){
@@ -25,17 +27,17 @@ public class IrrationalNumber {
         return name;
     }
 
-    public Long getTime(){
+    /*public Long getTime(){
         return time.get();
-    }
-    public LongProperty getTimeProperty(){
+    }*/
+    public StringProperty getTimeProperty(){
         return time;
     }
 
-    public Double getScore(){
+    /*public Double getScore(){
         return score.get();
-    }
-    public DoubleProperty getScoreProperty(){
+    }*/
+    public StringProperty getScoreProperty(){
         return score;
     }
 }

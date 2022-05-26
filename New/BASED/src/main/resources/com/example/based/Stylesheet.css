@@ -64,8 +64,6 @@
 /* This is just magic */
 .table-row-cell:filled {
 	-fx-background-color: transparent;
-	-fx-border-color: transparent -fx-lightest-grey-color -fx-lightest-grey-color -fx-lightest-grey-color, transparent;
-	-fx-border-insets: 0, 1;
 }
 .table-row-cell:empty {
 	-fx-background-color: transparent;
@@ -83,6 +81,7 @@
 }
 
 .table-row-cell:filled .table-cell{
+	-fx-border-color: -fx-lightest-grey-color;
 	-fx-text-fill: red;
 }
 

@@ -1,0 +1,16 @@
+com\example\based\controllers\MainAppControllers.class
+com\example\based\controllers\Screen3Controller.class
+com\example\based\MainApp.class
+com\example\based\controllers\InitialOverviewController.class
+com\example\based\Algorithms\Sqrt2.class
+com\example\based\controllers\ExitScreenController.class
+com\example\based\timing\TimerState.class
+module-info.class
+com\example\based\timing\ITimer.class
+com\example\based\Algorithms\DigitsOfPi.class
+com\example\based\Algorithms\IrrationalNumber.class
+com\example\based\controllers\Screen4Controller.class
+com\example\based\timing\Timer.class
+com\example\based\Algorithms\EMain.class
+com\example\based\controllers\RootLayoutController.class
+com\example\based\controllers\Screen2Controller.class

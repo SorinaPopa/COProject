@@ -14,9 +14,9 @@ public class Screen4Controller extends MainAppControllers{
     @FXML
     private TableColumn<IrrationalNumber, String> nameColumn;
     @FXML
-    private TableColumn<IrrationalNumber, Long> timeColumn;
+    private TableColumn<IrrationalNumber, String> timeColumn;
     @FXML
-    private TableColumn<IrrationalNumber, Double> scoreColumn;
+    private TableColumn<IrrationalNumber, String> scoreColumn;
 
     public void setMainApp(MainApp mainApp){
         this.mainApp=mainApp;
@@ -27,8 +27,8 @@ public class Screen4Controller extends MainAppControllers{
 
 
         nameColumn.setCellValueFactory(cellData->cellData.getValue().getNameProperty());
-        timeColumn.setCellValueFactory(cellData->cellData.getValue().getTimeProperty().asObject());
-        scoreColumn.setCellValueFactory(cellData->cellData.getValue().getScoreProperty().asObject());
+        timeColumn.setCellValueFactory(cellData->cellData.getValue().getTimeProperty());
+        scoreColumn.setCellValueFactory(cellData->cellData.getValue().getScoreProperty());
     }
 
 
