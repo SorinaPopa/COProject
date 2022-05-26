@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="screen2" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.Screen2Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="59.0" layoutY="73.0" text="What irrational number do you want to bet on?" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="265.0" layoutY="496.0" mnemonicParsing="false" onAction="#handleBet" prefHeight="30.0" prefWidth="75.0" style="-fx-background-color: #26D701;" text="BET" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="220.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleE" prefHeight="39.0" prefWidth="46.0" style="-fx-background-color: #FF1D18;" text="e" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="279.0" layoutY="136.0" mnemonicParsing="false" onAction="#handlePi" prefHeight="39.0" prefWidth="46.0" style="-fx-background-color: black;" text="π" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="338.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleSqrt" prefHeight="39.0" prefWidth="46.0" style="-fx-background-color: #FF1D18;" text="√2" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="150.0" layoutY="202.0" text="What digit do you want to bet on?" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="130.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleTwo" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="2" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="246.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleFour" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="4" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="21.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleZero" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="0" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="483.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleEight" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="8" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="364.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleSix" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #FF1D18;" text="6" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="541.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleNine" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="9" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="424.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleSeven" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="7" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="305.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleFive" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="5" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="189.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleThree" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="3" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="76.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleOne" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: black;" text="1" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="159.0" layoutY="337.0" text="On what position the digit will be?" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="positionField" layoutX="277.0" layoutY="374.0" prefHeight="34.0" prefWidth="40.0" />
+      <Label layoutX="56.0" layoutY="381.0" text="(Insert a number from 1 to 100)" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="outofboundsMessage" layoutX="45.0" layoutY="416.0" prefHeight="24.0" prefWidth="228.0" style="-fx-background-color: red;" text="The number is out of bounds!" textFill="WHITE" visible="false" wrapText="true">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

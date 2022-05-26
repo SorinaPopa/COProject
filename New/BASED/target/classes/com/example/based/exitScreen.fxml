@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" styleClass="exitScreen" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.based.controllers.ExitScreenController">
+   <children>
+      <Label layoutX="226.0" layoutY="158.0" prefHeight="63.0" prefWidth="148.0" text="We are sorry! :(" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="189.0" prefHeight="63.0" prefWidth="289.0" text="Come back when you feel lucky!" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="212.0" layoutY="229.0" prefHeight="63.0" prefWidth="177.0" text="We will be waiting!" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="255.0" layoutY="358.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="39.0" prefWidth="91.0" style="-fx-background-color: #FF1D18;" text="CLOSE" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>
